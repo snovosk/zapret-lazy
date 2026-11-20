@@ -1,0 +1,19 @@
+zapret-core/
+state/
+logs/
+reports/
+build/scratch/
+build/merged/
+*.exe
+releases/
+build/package.zip
+build/mockups/
+build/*.png
+dist/
+artifacts/
+feedback logs/
+upd/
+/.zapret-update-*/
+design/artboard-*.png
+design/image-2.png
+.kimi-design/

@@ -1,0 +1,33 @@
+﻿{
+    "schemaVersion":  1,
+    "gameFilterMode":  "all",
+    "ipsetMode":  "loaded",
+    "updateCheck":  true,
+    "test":  {
+                 "curlTimeoutSec":  4,
+                 "winwsReadyTimeoutMs":  5000,
+                 "maxParallel":  16,
+                 "strategyRestartDelayMs":  500
+             },
+    "monitor":  {
+                    "watchdogIntervalSec":  10,
+                    "commandPollMs":  1000,
+                    "pingTargets":  [
+                                        "1.1.1.1",
+                                        "8.8.8.8"
+                                    ]
+                },
+    "widget":  {
+                   "x":  60,
+                   "y":  60,
+                   "visible":  true,
+                   "autoHideAfterBoot":  true,
+                   "autoHideDelaySec":  300,
+                   "pinned":  false
+               },
+    "security":  {
+                     "pinSha256":  "",
+                     "hardenAcls":  true
+                 },
+    "testSchedule":  "onboot"
+}
